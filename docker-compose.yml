@@ -1,4 +1,4 @@
-version: '3.8'
+2version: '3.8'
 
 services:
   db:
@@ -36,7 +36,7 @@ services:
   frontend:
     image: abhu1234/crud-app-frontend:latest
     ports:
-      - "3000:80"  # Frontend accessible on port 3000
+      - "5500:80"  # Frontend accessible on port 3000
     environment:
       - API_URL=http://backend:5000  # Internal Docker network communication
     depends_on:
