@@ -36,8 +36,8 @@ Make sure you have installed:
 
 ## ⚡ Running the Application
 
-1. **Clone the repository**
-git clone https://github.com/abhuu123/crud-app.git
+1. **Clone the repository**</br>
+git clone https://github.com/abhuu123/crud-app.git</br>
 cd crud-app
 
 Start the containers
