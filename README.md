@@ -22,7 +22,7 @@ This project demonstrates containerized deployment using **Docker Compose**, mak
 
 crud-app/</br>
 ├── database/</br>
-│ └── init.sql # Database initialization script
+│ └── init.sql # Database initialization script</br>
 ├── docker-compose.yml # Docker Compose configuration
 
 ---
@@ -53,10 +53,10 @@ Frontend: http://instance-ip:5500
 docker-compose down
 📦 Useful Commands
 
-View running containers:
+View running containers:</br>
 docker ps
 
-View logs:
+View logs:</br>
 docker-compose logs -f
 
 Remove all containers:
