@@ -20,8 +20,8 @@ This project demonstrates containerized deployment using **Docker Compose**, mak
 
 ## 📂 Folder Structure
 
-crud-app/
-├── database/
+crud-app/</br>
+├── database/</br>
 │ └── init.sql # Database initialization script
 ├── docker-compose.yml # Docker Compose configuration
 
