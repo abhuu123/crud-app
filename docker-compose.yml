@@ -18,7 +18,7 @@ services:
       - app-network
 
   backend:
-    image: abhu1234/crud-app-backend:latest
+    image: abhu1234/backend:latest
     ports:
       - "5000:5000"
     environment:
@@ -34,7 +34,7 @@ services:
       - app-network
 
   frontend:
-    image: abhu1234/crud-app-frontend:latest
+    image: abhu1234/frontend:latest
     ports:
       - "5500:80"  # Frontend accessible on port 3000
     environment:
